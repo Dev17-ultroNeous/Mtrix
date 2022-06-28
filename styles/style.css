@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container-fluid {
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
+}
+
+.container-fluid-navBar {
+    padding-left: 7rem !important;
+
+}
+
+.logo-matrix {
+    display: flex;
+}
+
+.nav-section {
+    padding-top: 1.5rem;
+}
+
+.heading-matrix {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38.7368px;
+    line-height: 46px;
+    color: #2C2C2C;
+}
+
+.x-matrix {
+    color: #175FFF;
+}
+
+.link-matrix-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link-matrix-nav a {
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2C2C2C;
+}
+
+.link:hover {
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2C2C2C;
+}
+
+.appointment-button {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px !important;
+    padding-left: 2rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-right: 2rem !important;
+    color: #FFFFFF !important;
+    background: linear-gradient(269.1deg, #175FFF -39.62%, rgba(21, 151, 229, 0.8) 38.64%, #69DADB 99.51%);
+    border-radius: 6.52546px !important;
+}
+
+
+
+.car-repaired-section {
+    padding-top: 4rem;
+}
+
+.box-containe {
+    padding-left: 9rem !important;
+}
+
+.get-your {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.2054px;
+    color: #2C2C2C;
+}
+
+.car {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 107.43px;
+    line-height: 96px;
+    /* or 89% */
+    color: #2C2C2C;
+}
+
+.repaired {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 77.4264px;
+    line-height: 96px;
+    /* or 123% */
+    color: #2C2C2C;
+}
+
+.hassle-free {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.2054px;
+    color: #2C2C2C;
+}
+
+.repaired-car-details {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41px;
+    color: #999999;
+}
+
+.get-start {
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(269.1deg, #175FFF -39.62%, rgba(21, 151, 229, 0.8) 38.64%, #69DADB 99.51%);
+    border-radius: 6.52546px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-weight: bold;
+    border: none;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+}
+
+#get-start {
+    color: #FFFFFF;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.image-repaired-car {
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    display: flex;
+    padding-top: 2rem;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.play-button {
+    color: linear-gradient(180deg, rgba(3, 178, 239, 0.9) 0%, #066590 100%);
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.icon-paly-button {
+    color: linear-gradient(180deg, rgba(3, 178, 239, 0.9) 0%, #066590 100%) !important;
+
+}
+
+.service-section {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-brand {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.5888px;
+    line-height: 57px;
+    color: #2C2C2C;
+    align-items: center;
+    text-align: center;
+}
+
+.autozin {
+    position: relative;
+    bottom: 9px;
+}
+
+.best-paln-box {
+    padding-top: 2rem;
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+
+}
+
+.servicer {
+    --bs-gutter-x: 1.5rem !important
+}
+
+.heading-best-plan {
+    font-family: 'Public Sans';
+    font-style: normal;
+    width: 80%;
+    font-size: 50px;
+    padding-left: 15rem;
+    color: #2C2C2C;
+    text-align: center;
+    font-weight: 700;
+}
+
+.deails-best-plan {
+    display: flex;
+    justify-content: center;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+}
+
+.card-section {
+    padding-top: 4rem;
+}
+
+.card {
+    width: 100%;
+    height: 22rem;
+    border-radius: 47px !important;
+    box-sizing: border-box !important;
+    background: #FCFCFC !important;
+    border-radius: 20.0931px;
+    border: 1px solid #FFFFFF !important;
+    box-shadow: 4px 8px 9px 12px rgb(213 213 213 / 25%) !important;
+    border-radius: 18px !important;
+}
+
+.heading-card {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.5731px;
+    padding-left: 1rem;
+    line-height: 77px;
+    color: #000000;
+}
+
+.service-card {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.details-card {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.99px;
+    padding-left: 1rem;
+    line-height: 22px;
+    color: #999999;
+}
+
+.bulb {
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.read-more {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background: linear-gradient(272.11deg, #175FFF 32.72%, #175FFF 32.73%, rgba(42, 130, 244, 0.8) 77.08%, #69DADB 106.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: transparent;
+}
+
+.team-member-section {
+    padding-top: 8rem;
+
+
+}
+
+.member-details {
+    position: relative;
+    bottom: 5rem;
+    left: 1rem;
+}
+
+.member-image {
+    background: url(auto-mechanic-with-tools-car-repair-shop.jpg);
+    border-radius: 10.3705px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.heading-member {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.details-member {
+    font-family: 'Public Sans';
+    font-style: normal;
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    bottom: 2rem;
+}
+
+.meber-box {
+    padding-left: 2rem !important;
+}
+
+.team-containe {
+    padding-left: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 0rem;
+    background: rgba(3, 178, 239, 0.05);
+}
+
+.heading-team-member {
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    color: #2C2C2C;
+}
+
+.details-team-member {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #999999;
+}
+
+
+.book-appoinment-section {
+    padding-top: 9rem;
+}
+
+.heading-appoinment {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 70px;
+    color: #2C2C2C;
+}
+
+.details-appoinment {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #999999;
+}
+
+.appointment-box {
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.appoinment-field {
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+.contact-form-wrapper {
+    padding: 100px 0;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 12px;
+
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+
+    height: 50px;
+    padding-left: 16px;
+    margin-bottom: 2rem;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+}
+
+.contact-form .form-text-area {
+
+    height: auto;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    padding-left: 16px;
+}
+
+.form-box input {
+    background: white;
+}
+
+
+.contact-form .form-control::placeholder {
+    color: #aeb4b9;
+
+    opacity: 1;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(160, 160, 160, 0.6);
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+
+/* .contact-form .form-control:focus {
+    border-color: linear-gradient(269.17deg, #175FFF -11.54%, rgba(21, 151, 229, 0.8) 50.95%, #69DADB 99.55%);
+    ;
+    box-shadow: linear-gradient(269.17deg, #175FFF -11.54%, rgba(21, 151, 229, 0.8) 50.95%, #69DADB 99.55%);
+    ;
+} */
+
+/* .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+} */
+
+.contact-form .submit-button-wrapper {
+    text-align: start;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.contact-form .submit-button-wrapper input {
+    border: none;
+    background: linear-gradient(269.17deg, #175FFF -11.54%, rgba(21, 151, 229, 0.8) 50.95%, #69DADB 99.55%);
+    border-radius: 6.52546px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+    background: linear-gradient(269.17deg, #175FFF -11.54%, rgba(21, 151, 229, 0.8) 50.95%, #69DADB 99.55%);
+    border-radius: 6.52546px;
+}
+
+.footer-section {
+    padding-top: 9rem;
+}
+
+.footer-box {
+    background: linear-gradient(269.59deg, #175FFF 2.49%, rgba(21, 151, 229, 0.8) 82.63%, #69DADB 101.12%);
+    border-radius: 6.52546px;
+    padding: 6rem;
+    padding-top: 2rem;
+
+}
+
+.heading-footer {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.7895px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link a {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-link a:hover {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.details-subscribe {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    width: 61%;
+    font-size: 16px;
+    text-align: initial;
+    position: relative;
+    left: 10.1rem;
+    color: #FFFFFF;
+}
+
+.subscribe-containe {
+    display: flex;
+    justify-content: end;
+}
+
+.subscribe-input {
+    text-align: end;
+    padding-right: 0.9rem;
+}
+
+.subscribe-input input {
+    width: 232px;
+    height: 39px;
+    border: none;
+    background: #EEF1F3;
+    box-shadow: 0px 6px 12px -6px rgba(255, 255, 255, 0.12), 0px 8px 24px -4px rgba(255, 255, 255, 0.08);
+}
+
+.subscribe-button {
+    width: 118px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 5px;
+    color: #000000;
+}
+
+.privacy-link-box {
+    position: relative;
+    top: 3rem;
+}
+
+.footer-line {
+    position: relative;
+    top: 3.5rem;
+
+    border: 1px solid #FFFFFF;
+}
+
+.privacy-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy-link a {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.copy-right {
+    padding-top: 1rem;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF
+}
+
+.social-media-link {
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.social-media-link a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.privacy-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.privacy-link a:hover {
+    color: white;
+}
+
+
+@media (min-width:320px) and (max-width: 650px) {
+    .nav-section {
+        display: none;
+    }
+
+    .image-service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading-brand {
+        font-size: 16.5888px;
+    }
+
+    .container-fluid-navBar {
+        padding-left: 1em !important;
+    }
+
+    .get-your {
+        font-size: 31.2054px;
+
+    }
+
+    .repaired-car-details {
+        font-size: 19px;
+    }
+
+    .car {
+        font-size: 95.43px;
+    }
+
+    .repaired {
+        font-size: 46.4264px;
+    }
+
+    .hassle-free {
+        font-size: 22.2054px;
+    }
+
+    .car-image {
+        padding-top: 2rem;
+    }
+
+    .icon-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading-best-plan {
+        width: 100%;
+        font-size: 26px;
+        padding-left: 0rem;
+    }
+
+    .service-card {
+        padding: 2rem;
+    }
+
+    .box-details-bulb {
+        padding-bottom: 2rem;
+    }
+
+    .box-details-time {
+        padding-bottom: 2rem;
+    }
+
+    .team-containe {
+        padding-left: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        background: rgba(3, 178, 239, 0.05);
+    }
+
+
+    .heading-team-member {
+        font-size: 41px;
+    }
+
+    .appointment-box {
+        padding: 2rem;
+    }
+
+    .appoinment-field {
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+
+    .heading-appoinment {
+        font-size: 31px;
+    }
+
+    .details-appoinment {
+        font-size: 19px;
+    }
+
+    .footer-box {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+    .details-subscribe {
+        width: 100%;
+        font-size: 14px;
+        top: 1rem;
+        left: 0rem;
+        color: #FFFFFF;
+    }
+
+    .subscribe-input {
+        text-align: end;
+        padding-top: 1rem;
+        padding-right: 0rem;
+    }
+
+    .footer-line {
+        position: relative;
+        top: 0rem;
+        border: 1px solid #FFFFFF;
+    }
+
+    .footer-link a {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .privacy-link a {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    .link:hover {
+        font-size: 14px;
+        color: #2C2C2C;
+    }
+
+    .privacy-link-box {
+        position: relative;
+        top: 0rem;
+    }
+
+    .social-media-link {
+        display: flex;
+        justify-content: center;
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+}
