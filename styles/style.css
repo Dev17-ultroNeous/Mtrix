@@ -68,6 +68,7 @@
     color: #FFFFFF !important;
     background: linear-gradient(269.1deg, #175FFF -39.62%, rgba(21, 151, 229, 0.8) 38.64%, #69DADB 99.51%);
     border-radius: 6.52546px !important;
+    border: none !important;
 }
 
 
@@ -86,6 +87,18 @@
     font-weight: 400;
     font-size: 33.2054px;
     color: #2C2C2C;
+}
+
+.car-img {
+    position: relative !important;
+    right: 2rem !important;
+}
+
+.image-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .car {
@@ -167,6 +180,9 @@
     color: #000000;
 }
 
+
+
+
 .play-button {
     color: linear-gradient(180deg, rgba(3, 178, 239, 0.9) 0%, #066590 100%);
     font-size: 2rem;
@@ -220,9 +236,9 @@
 .heading-best-plan {
     font-family: 'Public Sans';
     font-style: normal;
-    width: 80%;
+    width: 92%;
     font-size: 50px;
-    padding-left: 15rem;
+    padding-left: 7rem;
     color: #2C2C2C;
     text-align: center;
     font-weight: 700;
@@ -256,6 +272,18 @@
     border-radius: 18px !important;
 }
 
+.card:hover {
+    width: 100%;
+    height: 22rem;
+    border-radius: 47px !important;
+    box-sizing: border-box !important;
+    background: #FFFFFF !important;
+    border-radius: 20.0931px;
+    border: 1px solid #FFFFFF !important;
+    box-shadow: 4px 8px 9px 12px rgb(213 213 213 / 25%) !important;
+    border-radius: 18px !important;
+}
+
 .heading-card {
     font-family: 'Public Sans';
     font-style: normal;
@@ -271,11 +299,15 @@
     padding-right: 7rem;
 }
 
+.read-more-arrow {
+    color: #175FFF;
+}
+
 .details-card {
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 14.99px;
+    font-size: 13.99px;
     padding-left: 1rem;
     line-height: 22px;
     color: #999999;
@@ -303,18 +335,19 @@
 
 .team-member-section {
     padding-top: 8rem;
+}
 
-
+.slick-arrow {
+    display: none !important;
 }
 
 .member-details {
     position: relative;
-    bottom: 5rem;
+    bottom: 4rem;
     left: 1rem;
 }
 
 .member-image {
-    background: url(auto-mechanic-with-tools-car-repair-shop.jpg);
     border-radius: 10.3705px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -323,7 +356,7 @@
     font-family: 'Public Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 60px;
     color: #FFFFFF;
 }
@@ -332,9 +365,9 @@
     font-family: 'Public Sans';
     font-style: normal;
     position: relative;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 35px;
     color: rgb(255, 255, 255);
     bottom: 2rem;
 }
@@ -441,7 +474,6 @@
 
 .contact-form .form-control::placeholder {
     color: #aeb4b9;
-
     opacity: 1;
     font-family: 'Public Sans';
     font-style: normal;
@@ -464,26 +496,6 @@
     align-items: center;
     background: #F5F5F5;
 }
-
-
-/* .contact-form .form-control:focus {
-    border-color: linear-gradient(269.17deg, #175FFF -11.54%, rgba(21, 151, 229, 0.8) 50.95%, #69DADB 99.55%);
-    ;
-    box-shadow: linear-gradient(269.17deg, #175FFF -11.54%, rgba(21, 151, 229, 0.8) 50.95%, #69DADB 99.55%);
-    ;
-} */
-
-/* .contact-form .title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.contact-form .description {
-    color: #aeb4b9;
-    font-size: 14px;
-    text-align: center;
-} */
 
 .contact-form .submit-button-wrapper {
     text-align: start;
@@ -519,7 +531,7 @@
 .footer-box {
     background: linear-gradient(269.59deg, #175FFF 2.49%, rgba(21, 151, 229, 0.8) 82.63%, #69DADB 101.12%);
     border-radius: 6.52546px;
-    padding: 6rem;
+    padding: 7rem;
     padding-top: 2rem;
 
 }
@@ -672,13 +684,70 @@
         display: none;
     }
 
+    .logo a {
+        text-decoration: none;
+    }
+
+    .link-mobile {
+        text-decoration: none;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 46px;
+        color: #2C2C2C;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: none !important;
+        border-color: none !important;
+        border: none !important;
+    }
+
+    .appointment-button-mobile {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px !important;
+        padding-left: 2rem !important;
+        padding-bottom: 0.5rem !important;
+        padding-top: 0.5rem !important;
+        padding-right: 2rem !important;
+        color: #FFFFFF !important;
+        background: linear-gradient(269.1deg, #175FFF -39.62%, rgba(21, 151, 229, 0.8) 38.64%, #69DADB 99.51%);
+        border-radius: 6.52546px !important;
+        border: none !important;
+    }
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        box-shadow: 0px 0px 10px 0px #000;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        background-color: white;
+    }
+
     .image-service {
         display: flex;
         justify-content: center;
     }
 
     .heading-brand {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
         font-size: 16.5888px;
+        line-height: 57px;
+        padding-left: 2.3222rem;
+        padding-bottom: 2rem;
+        color: #2C2C2C;
+        display: flex;
+        justify-content: none;
+
+    }
+
+    .best-paln-box {
+        padding-top: 0rem;
     }
 
     .container-fluid-navBar {
@@ -690,16 +759,33 @@
 
     }
 
+    #get-start {
+        color: #FFFFFF;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        text-decoration: none;
+    }
+
     .repaired-car-details {
         font-size: 19px;
     }
 
+    .img-fluid {
+        position: relative !important;
+        right: 1rem !important;
+    }
+
     .car {
-        font-size: 95.43px;
+        font-size: 72.43px;
+        line-height: 60px;
     }
 
     .repaired {
         font-size: 46.4264px;
+        line-height: 50px;
     }
 
     .hassle-free {
@@ -737,10 +823,14 @@
     .team-containe {
         padding-left: 1rem;
         padding-top: 3rem;
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
         background: rgba(3, 178, 239, 0.05);
     }
 
+    .meber-box {
+        padding-left: 0rem !important;
+        padding-top: 3rem;
+    }
 
     .heading-team-member {
         font-size: 41px;
@@ -757,6 +847,24 @@
 
     .heading-appoinment {
         font-size: 31px;
+    }
+
+    .member-details {
+        position: relative;
+        bottom: 4rem;
+        left: 0rem;
+    }
+
+    .details-member {
+        font-family: 'Public Sans';
+        font-style: normal;
+        position: relative;
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 3px;
+        line-height: 36px;
+        color: rgb(255, 255, 255);
+        bottom: 2rem;
     }
 
     .details-appoinment {
@@ -789,9 +897,6 @@
     }
 
     .footer-link a {
-        font-family: 'Public Sans';
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 21px;
         color: #FFFFFF;
@@ -822,5 +927,127 @@
         justify-content: center;
         padding-right: 2rem;
         padding-top: 2rem;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1080px) {
+    .navbar-section-mobile {
+        display: none;
+    }
+
+    .container-fluid {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .link-matrix-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-fluid-navBar {
+        padding-left: 2rem !important;
+    }
+
+    .appointment-button {
+        font-size: 15px !important;
+        padding-left: 1rem !important;
+        padding-bottom: 0.5rem !important;
+        padding-top: 0.5rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .meber-box {
+        padding-left: 0rem !important;
+        padding-top: 4rem;
+    }
+
+    .car-image {
+        padding-top: 3rem;
+    }
+
+    .heading-best-plan {
+        font-family: 'Public Sans';
+        font-style: normal;
+        width: 100%;
+        font-size: 42px;
+        padding-left: 0rem;
+        color: #2C2C2C;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .box-details-bulb {
+        padding-bottom: 4rem;
+    }
+
+    .box-details-time {
+        padding-bottom: 4rem;
+    }
+
+    .appointment-box {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .appoinment-field {
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+
+    .image-service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading-brand {
+        font-size: 18.5888px;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+
+    .icon-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .repaired-car-details {
+        font-size: 21px;
+        line-height: 32px;
+        color: #999999;
+    }
+
+    .subscribe-box {
+        padding-top: 2rem;
+    }
+
+    .details-subscribe {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        width: 100%;
+        font-size: 16px;
+        text-align: initial;
+        position: relative;
+        left: 0rem;
+        color: #FFFFFF;
+    }
+
+    .subscribe-input {
+        text-align: end;
+        padding-right: 6.9rem;
+    }
+
+    .footer-line {
+        position: relative;
+        top: 1.5rem;
+        border: 1px solid #FFFFFF;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-section-mobile {
+        display: none;
     }
 }
