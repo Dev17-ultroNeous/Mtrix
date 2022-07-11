@@ -1,0 +1,85 @@
+#todo-list {
+    width: 500px;
+    margin: 60px auto;
+}
+
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-left: 6px;
+    border: 1px solid black;
+    padding-right: 5px;
+
+}
+
+.todoDetails {
+    position: relative;
+    top: 7px;
+}
+
+.boxButton {
+
+    display: flex;
+    align-items: center;
+}
+
+#boxForm {
+    border: 1px solid black;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#deleteBtn {
+    font-size: 12px;
+    background-color: rgb(205, 29, 29);
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 7px 11px;
+}
+
+#completeBtn {
+    font-size: 12px;
+    background-color: rgb(42, 126, 14);
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 1rem;
+    padding: 7px 11px;
+}
+
+.addBtn {
+    font-size: 15px;
+    background-color: rgb(15, 114, 123);
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    height: 2rem;
+    padding-left: 2rem;
+    width: 28.1rem;
+    position: relative;
+    top: 1rem;
+}
+
+
+.todoList {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.todoText {
+    display: flex;
+}
+
+input[type='text'] {
+    font-family: 'Lato', sans-serif;
+    width: 28rem;
+}

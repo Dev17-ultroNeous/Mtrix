@@ -1,0 +1,10 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+a {
+    padding-left: 1rem;
+}
